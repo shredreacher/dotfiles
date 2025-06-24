@@ -14,26 +14,26 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ## 2️⃣ Install Recommended Zsh Plugins
 
-### 👉 zsh-autosuggestions
+### zsh-autosuggestions
 
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 ```
 
-### 👉 zsh-syntax-highlighting
+### zsh-syntax-highlighting
 
 ```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 ```
 
-### 👉 fzf (Fuzzy Finder)
+### fzf (Fuzzy Finder)
 
 ```bash
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 ```
 
-### 👉 zsh-completions
+### zsh-completions
 
 ```bash
 git clone https://github.com/zsh-users/zsh-completions $ZSH_CUSTOM/plugins/zsh-completions
@@ -43,13 +43,13 @@ git clone https://github.com/zsh-users/zsh-completions $ZSH_CUSTOM/plugins/zsh-c
 
 ## 3️⃣ Install Starship Prompt and Nerd Font Symbols Preset
 
-### 👉 Install Starship
+### Install Starship
 
 ```bash
 curl -sS https://starship.rs/install.sh | sh
 ```
 
-### 👉 Apply Nerd Font Symbols Preset
+### Apply Nerd Font Symbols Preset
 
 ```bash
 starship preset nerd-font-symbols -o ~/.config/starship.toml
