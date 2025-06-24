@@ -68,6 +68,3 @@ eval "$(starship init zsh)"
 ---
 
 ## ✅ Done!
-
-- Restart your terminal or run `source ~/.zshrc`
-- Make sure your terminal font is a Nerd Font (e.g., FiraCode Nerd Font, JetBrains Mono Nerd Font) to see all icons properly.
